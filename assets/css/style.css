@@ -1,0 +1,69 @@
+
+
+#header{
+    height: auto;
+    background: #000
+}
+
+nav.navbar.navbar-expand-lg{
+       margin-left: 15rem;
+}
+a.navbar-brand {
+    width: 15%;
+}
+img.logoimg {
+    width: 36%;
+}
+a.nav-link {
+    color: #fff;
+}
+a.nav-link.btn.btnReg {
+    background: #039F9A;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.headSvg{
+background-image: url(../images/svgs/top.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    z-index: 10;
+    /* top: 31px; */
+
+}
+
+
+
+
+main#main {
+   margin: 0;
+    padding: 0;
+    height: auto;
+    position: relative;
+
+}
+
+section.videoContent {
+    width: 100%;
+    height: auto;
+}
+section.videoContent >video {
+    width: 100%;
+    min-height: 758px;
+}
