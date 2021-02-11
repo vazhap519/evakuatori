@@ -1,25 +1,275 @@
-
-
-#header{
+@font-face{
+     font-family: DejaVuSans;
+  src: url(../fonts/DejaVuSans.ttf);
+}
+@font-face{
+     font-family: archy;
+  src: url(../fonts/archy.ttf);
+}
+@font-face{
+     font-family: nino;
+  src: url(../fonts/bpg-nino-mtavruli-webfont.woff2);
+}
+.wrapper{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     height: auto;
-    background: #000
+}
+#header{
+  height: auto;
+    position: relative;
+    z-index: 20;
+
 }
 
-nav.navbar.navbar-expand-lg{
-       margin-left: 15rem;
+.navbar{
+    background-color: #000;
 }
-a.navbar-brand {
-    width: 15%;
+.navbar-brand {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
 }
-img.logoimg {
-    width: 36%;
+.logoimg{
+    margin: auto;
+    width: 60px
+}
+
+.topSVG svg {
+    width: calc(111% + 1.3px);
+    height: 28px;
+
+}
+ul.navbar-nav {
+    margin-right: 30px;
 }
 a.nav-link {
+    color: #A4A9AA!important;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+     font-family: "archy";
+}
+.navbar-toggler-icon{
+    color: #A4A9AA;
+}
+a.btn.regBtn {
+background: #1CA29C;
+    padding: 10px 15px;
+    color: #fff;
+    margin-right: 250px;
+    font-family: "DejaVuSans";
+    font-weight: 500;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+
+
+
+
+.middle{
+display: block;
+    overflow: hidden;
+    position: relative;
+    top: -40px;
+
+}
+
+
+
+
+
+
+
+
+.videoContainer{
+
+        width: 100%;
+max-height: 425px;
+
+}
+video {
+    min-width: 100%;
+    min-height: 425px;
+
+}
+.middleSvg {
+width: 100%;
+    height: 150px;
+
+    margin-bottom: -45px;
+
+}
+
+.middleSvg svg {
+    transform: rotate(
+180deg
+ );
+    width: calc(114% + 1.3px);
+    position: absolute;
+    height: 23px;
+    fill: #fff;
+    z-index: 50;
+    top: 508px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middleContainer {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+background-position: top center;
+    background-image: url(../images/svgs/Bermuda_Circle_w.svg);
+    background-repeat: no-repeat;
+background-size: cover;
+  display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.middleContainertext {
+
+    width: 100%;
+    height: auto;
+}
+
+.middleContainertext_Header{
+
+    width: 100%;
+    text-align: center;
+    font-family: "nino";
+    font-size: 48px;
+    font-weight: 600;
+        position: relative;
+}
+.middleContainertext_Header::after{
+content: '';
+    width: 150px;
+    height: 4px;
+    background: #000;
+    position: absolute;
+    top: 92px;
+    left: 635px;
+
+}
+
+.middleContainertext_paragraph {
+    /* text-align: center; */
+    color: #7A7A7A;
+    font-family: "DejaVuSans", Sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 70%;
+    margin:90px auto;
+    text-align: justify;
+}
+
+
+
+
+
+
+.download{
+  color: #fff;
+background: #1CA29C;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 570px;
+       font-family: "DejaVuSans", Sans-serif;
+    font-size: 17px;
+
+}
+.download:hover{
+      color: #fff;
+    background:black;
+    text-align: center;
+    transform: scale(1.2);
+    transition: 0.5;
+}
+i.fas.fa-arrow-circle-down {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.middlecontainer_slider{
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+}
+
+
+
+.sliderItem{
+    width: 270px;
+    height: 180px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+      position: relative;
+}
+
+   .slidebtn{
+    position: absolute;
+display: none;
+    color: #fff;
+    top: 0;
+    left: 0;
+    padding: 2px 25px;
+    text-align: center;
+    text-transform: capitalize;
+        font-size: 17px;
+     font-family: "archy";
+
+}
+.slidebtn:hover{
     color: #fff;
 }
-a.nav-link.btn.btnReg {
-    background: #039F9A;
-    border-radius: 10px;
+.sliderItem:hover{
+
+    width: 100%;
+    background-color: #000;
+    height: 180px
+}
+.sliderItem:hover .slidebtn{
+    display: block;
+  width: 100%;
+    height: 100%;
+   background-color: rgba(0, 0, 0, 0.3);
+
+}
+.slideimage{
+    width: 100%;
+    height: 180px;
+      border-radius: 10px
 }
 
 
@@ -35,35 +285,125 @@ a.nav-link.btn.btnReg {
 
 
 
-.headSvg{
-background-image: url(../images/svgs/top.svg);
+
+
+
+.bottomcontainer{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/svgs/Bermuda_Circle_g.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomcontainerSvg{
+    overflow: hidden;
     position: absolute;
-    z-index: 10;
-    /* top: 31px; */
+    left: 0;
+     width: 100%;
+
 
 }
+.bottomcontainerSvg svg{
 
+width: calc(114% + 1.3px);
+    height: 51px;
+    fill:#fff;
+    line-height: 0;
+     display: block;
 
-
-
-main#main {
-   margin: 0;
-    padding: 0;
-    height: auto;
     position: relative;
-
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
-section.videoContent {
-    width: 100%;
+.bottomContainerContent {
+    display: flex;
+    flex-direction: column;
+    margin: 55px auto;
+    text-align: center;
     height: auto;
 }
-section.videoContent >video {
+.bottomContainerContent_header{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #fff;
+}
+.btnfilter{
+    background: #000;
+    color: #fff;
+}
+.sel>select,input,button{
+    margin-right: 10px;
+
+}
+
+.apartamentContainerConent{
+    background: #fff;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    height: auto;
+    border-radius: 20px;
+}
+.imgContainer{
+    width: 365px;
+    padding: 20px;
+
+}
+.imgContainer >.apartamentContainerConent_img{
     width: 100%;
-    min-height: 758px;
+    height: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+.detailsContainer{
+     padding: 20px;
+     width: 365px;
+    text-align: center;
+}
+
+.detailsContainer >button{
+    border:2px solid #000;
+}
+.detailsContainer >button:hover{
+
+background-color: #1CA29C;
+    color: #fff;
+    border:2px solid #000;
+}
+.detailsContainer> h1{
+
+
+font-family: "archy";
+    font-size: 31px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.detailsContainer> h3{
+    color: #1CA29C;
+ margin-bottom: 10px;
+font-family: "archy";
+    font-size: 22px;
+    font-weight: 600;
+}
+.addFav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+     margin-top: 30px
+}
+
+.addFav > button {
+    color: #1CA29C;
+
+}.addFav > button i{
+    padding-right: 10px;
 }
