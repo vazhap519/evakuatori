@@ -356,6 +356,7 @@ width: calc(114% + 1.3px);
 .imgContainer{
     width: 365px;
     padding: 20px;
+        position: relative;
 
 }
 .imgContainer >.apartamentContainerConent_img{
@@ -363,6 +364,27 @@ width: calc(114% + 1.3px);
     height: auto;
     border-radius: 20px 20px 20px 20px;
 }
+.bacground {
+    width: 89%;
+    height: 190px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 20px;
+    border-radius: 23px;
+}
+
+.imgB {
+    position: absolute;
+    text-align: center;
+    z-index: 5;
+    width: 50%;
+    left: 100px;
+    top: 80px;
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+
 .detailsContainer{
      padding: 20px;
      width: 365px;
