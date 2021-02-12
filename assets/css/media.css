@@ -1,7 +1,9 @@
 
 
 @media (min-width:200px) and (max-width: 576px) {
-
+.navbar{
+        flex-direction: column;
+    }
 
     .navbar-brand {
     display: flex;
@@ -11,6 +13,7 @@
 
 
 }
+
     img.logoimg {
     margin: auto;
         width: 60px;
@@ -20,6 +23,7 @@
         background: #7A7A7A;
         margin: auto
 }
+
 li.nav-item {
     text-align: center;
 }
@@ -32,6 +36,7 @@ li.nav-item {
 h1.middleContainertext_Header {
     font-size: 20px;
 }
+
 .middleContainertext_Header::after {
     left: 140px;
 }
@@ -47,19 +52,23 @@ a.btn.download {
     font-size: 16px;
 
 }
+
     a.btn.imgB {
     top: 88px;
     left: 90px;
 }
+
     .middleContainertext_paragraph {
     font-size: 14px;
     margin: 90px 95px;
     text-align: justify;
         width: 50%;
 }
+
   .form-group.sel {
     flex-direction: column;
 }
+
     .form-inline .form-control {
 
     width: 150px;
@@ -129,6 +138,10 @@ a.btn.download {
 
 
 }
+    .navbar{
+        flex-direction: column;
+    }
+
     img.logoimg {
     margin: auto;
         width: 60px;
