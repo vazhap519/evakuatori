@@ -354,40 +354,45 @@ width: calc(114% + 1.3px);
     border-radius: 20px;
 }
 .imgContainer{
-    width: 365px;
+    width: 390px;
     padding: 20px;
         position: relative;
 
 }
 .imgContainer >.apartamentContainerConent_img{
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 20px 20px 20px 20px;
     filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate(
 0deg
 );
 }
-.bacground {
-    width: 89%;
-    height: 190px;
-    background: rgba(0,0,0,0.5);
-    position: absolute;
-    top: 20px;
-    border-radius: 23px;
+
+.imgContainer >.apartamentContainerConent_img:hover{
+      filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate(
+0deg
+);
+    transform: scale(1.1);
+    transition: all linear .5s;
+        color:#fff
 }
+
 
 .imgB {
     position: absolute;
     text-align: center;
     z-index: 5;
     width: 50%;
-    left: 100px;
+    left: 80px;
     top: 80px;
     border: 1px solid #fff;
     color: #fff;
 
 }
-
+imgB:hover{
+    color: #fff;
+    background: #039F9A;
+}
 .detailsContainer{
      padding: 20px;
      width: 365px;
