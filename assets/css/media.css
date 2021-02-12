@@ -18,15 +18,27 @@
         background: #7A7A7A;
         margin: auto
 }
+    li.nav-item {
+    text-align: center;
+}
 
    a.btn.regBtn {
     /* text-align: center; */
-    margin-left: 105px;
-    margin-top: 15px;
+
+    margin: 15px auto;
 }
-    h1.middleContainertext_Header {
-    font-size: 35px;
+
+h1.middleContainertext_Header {
+    font-size: 18px;
 }
+
+p.middleContainertext_paragraph {
+    font-size: 10px;
+}
+h1.bottomContainerContent_header {
+    font-size: 20px;
+}
+
 
     .form-group.sel {
     margin: auto;
@@ -49,9 +61,114 @@
 }
 
  a.btn.imgB {
-    width: 45%;
+  width: 50%;
     font-size: 10px;
     top: 50px;
+    left: 42px;
+}
+
+
+
+a.btn.download {
+
+   margin-left: 0;
+    font-size: 12px;
+}
+
+.detailsContainer {
+    padding: 5px;
+}
+.detailsContainer> h3 {
+    font-size: 20px;
+    }
+
+.detailsContainer >button {
+    border: 2px solid #000;
+    font-size: 11px;
+}
+
+.addFav > button {
+    color: #1CA29C;
+    font-size: 7px;
+}
+    .footer_top_content {
+    width: 100%;
+    display: block;
+    /* text-align: center; */
+    /* margin: auto; */
+}
+    .logo_footer {
+    width: 126px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+   .footer_socials {
+    display: flex;
+    margin-left: 30px;
+}
+    span.footer_bottom_left_text {
+    font-size: 10px;
+}
+
+
+
+
+
+}
+
+
+
+
+@media (min-width:557px) and (max-width: 768px) {
+    .navbar-brand {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:15px auto;
+
+
+}
+    img.logoimg {
+    margin: auto;
+        width: 60px;
+}
+
+    .navbar-toggler {
+        background: #7A7A7A;
+        margin: auto
+}
+li.nav-item {
+    text-align: center;
+}
+   a.btn.regBtn {
+    /* text-align: center; */
+   margin-left: 170px;
+    margin-top: 15px;
+
+}
+h1.middleContainertext_Header {
+    font-size: 40px;
+}
+ .middleContainertext_Header::after {
+    left: 170px;
+}
+
+
+a.btn.download {
+
+   margin-left: 170px;
+    font-size: 16px;
+}
+
+    .bacground {
+    width: 90%;
+    height: 180px;
+}
+
+    a.btn.imgB {
+    top: 88px;
+    left: 90px;
 }
 
 
@@ -59,9 +176,54 @@
 
 
 
+  .form-group.sel {
+    flex-direction: column;
+}
+    .form-inline .form-control {
 
+    width: 150px;
+    vertical-align: middle;
+}
 
-
+    .sel>select, input, button {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+    form.form-inline {
+    margin: auto;
+}
+    .apartamentContainerConent {
+    flex-direction: column;
+}
+    .imgContainer {
+    margin: auto;
+}
+    .detailsContainer {
+    margin: auto;
+}
+.addFav {
+    margin: auto;
 }
 
 
+    footer_top_content_left {
+    width: 30%;
+    margin-right: auto;
+}
+    .footer_socials {
+    width: 100%;
+    display: inline-block;
+    margin-left: 10px;
+}
+    .detailsContainer> h3 {
+    font-size: 40px;
+}
+    .detailsContainer >button {
+    border: 2px solid #000;
+    font-size: 27px;
+}
+    .addFav > button {
+    color: #1CA29C;
+    font-size: 30px;
+}
+}

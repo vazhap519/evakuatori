@@ -363,6 +363,9 @@ width: calc(114% + 1.3px);
     width: 100%;
     height: auto;
     border-radius: 20px 20px 20px 20px;
+    filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate(
+0deg
+);
 }
 .bacground {
     width: 89%;
