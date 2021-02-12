@@ -551,4 +551,17 @@ text-decoration: none;
 .logo_footer >img{
     width: 100%;
 }
-
+.footer_bottom{
+    background-color: #1CA29C;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.footer_bottom span{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 300;
+    font-family: "DejaVuSans";
+}
