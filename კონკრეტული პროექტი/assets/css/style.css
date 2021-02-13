@@ -321,10 +321,30 @@ width: calc(114% + 1.3px);
 }
 .imgContainer{
     width: 390px;
-    padding: 20px;
+    padding: 5px;
         position: relative;
-
+    text-align: center;
 }
+.imgContainer:hover .apartamentContainerConent_img{
+      filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate(
+0deg
+);
+    transform: scale(1.1);
+    transition: all linear .5s;
+        color:#fff;
+            
+}
+
+
+
+
+
+
+
+
+
+
+
 .imgContainer >.apartamentContainerConent_img{
     width: 90%;
     height: auto;
@@ -334,6 +354,7 @@ width: calc(114% + 1.3px);
 );
 }
 
+/*
 .imgContainer >.apartamentContainerConent_img:hover{
       filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate(
 0deg
@@ -342,6 +363,7 @@ width: calc(114% + 1.3px);
     transition: all linear .5s;
         color:#fff
 }
+*/
 
 
 .imgB {
@@ -352,11 +374,11 @@ width: calc(114% + 1.3px);
     left: 80px;
     top: 80px;
     border: 1px solid #fff;
-    color: #fff;
+    color: #fff!important;
 
 }
 imgB:hover{
-    color: #fff;
+   
     background: #039F9A;
 }
 .detailsContainer{
@@ -826,7 +848,7 @@ font-family: "DejaVuSans";
     border-radius: 30px;
 }
 .Calls_sub_Content:hover{
-    border:1px solid #039F9A
+    border:1px solid #039F9A;
 }
 section.callDate {
     font-family: "DejaVuSans";
