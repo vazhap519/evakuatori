@@ -541,12 +541,19 @@ text-decoration: none;
         margin-top: 160px;
     text-align: center;
 }
-.personname{
-    font-family: "archy";
+h1.personContentHeader {
+    font-family: "Archy", Sans-serif;
     font-size: 48px;
     font-weight: 600;
-
 }
+
+h3.personname {
+    font-family: "DeJavu", Sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+
 
 
 
@@ -644,8 +651,13 @@ fill: #fff;
 }
 
 .myfavContent .myfavContent_h{
+  color: #FFFFFF;
+    font-family: "archy";
+    font-size: 48px;
+    font-weight: 600;
     text-align: center;
-    margin: 85px 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 .apartamentContainerConent_favs{
     margin-bottom: 80px;
@@ -665,12 +677,12 @@ fill: #fff;
 .mycontact{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-image: url(../images/svgs/Bermuda_Circle_w.svg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    
+    top:-60px;
 }
 .mycontactsvg{
 overflow: hidden;
@@ -713,26 +725,149 @@ overflow: hidden;
 }
 
 .mycontactContent{
-    position: absolute;
+/*    position: absolute;*/
         display: flex;
-    width: 90%;
+/*    width: 90%;*/
 text-align: center;
     margin-top: 60px;
     flex-direction: column;
 
 }
 
-
-.mycontactContent_sub{
-    display: flex;
-    justify-content: space-between;
+.mycontactHeader{
+    font-size: 48px;
+    font-family: 'archy';
+        margin-bottom: 30px;
+        margin-top: 30px;
 }
 
 
+.mycontactContent_sub{
+   display: flex;
+       justify-content: space-between;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.mycontactContent_sub .devCompany >h2{
+    
+
+font-family: "DejaVuSans";
+    font-size: 19px;
+    font-weight: 600;
+}
 
 
+.mycontactContent_sub .devCompany >h2.Salemanager{
+   font-family: "DejaVuSans";
+    font-size: 17px;
+    font-weight: normal;
+
+}
+
+.mycontactContent_sub .devCompany >h2.position{
+
+font-family: "DejaVuSans";
+    font-size: 17px;
+    font-weight: normal;
+    color:  #039F9A;
+}
+
+.devCompany_icons_a {
+    display: inline-block;
+    line-height: 1;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    background-color: #039F9A;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+}
 
 
+   .devCompany {
+    background: #F9F9FE;
+    padding: 30px;
+    box-shadow: 5px -4px 10px #888888;
+    border-radius: 30px;
+    
+}
+.devCompany:hover{
+    border: 1px solid #039F9A;
+}
 
+.Calls{
+    text-align: center;
+    margin-top: 30px;
+}
+.CallsHeader{
+    font-size: 48px;
+    font-family: 'archy';
+        margin-bottom: 30px;
+        margin-top: 50px;
+}
+.Calls_sub{
+  display: flex;
+       justify-content: space-between;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 30px;
 
-
+}
+.Calls_sub_Content{
+   background: #F9F9FE;
+    padding: 30px;
+    box-shadow: 5px -4px 10px #888888;
+    border-radius: 30px;
+}
+section.callDate {
+    font-family: "DejaVuSans";
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 2;
+}
+section.callTime {
+    color: #FFA82D;
+      font-family: "DejaVuSans";
+    font-size: 16px;
+    font-weight: 600;
+       line-height: 2;
+}
+section.callCompany {
+      font-family: "DejaVuSans";
+    font-size: 19px;
+    font-weight: 600;
+       line-height: 2;
+}
+section.callManagerName {
+      font-family: "DejaVuSans";
+    font-size: 17px;
+    font-weight: normal;
+       line-height: 2;
+}
+section.callManager {
+      font-family: "DejaVuSans";
+    font-size: 16px;
+    font-weight: normal;
+       line-height: 2;
+}
+.Call_icons{
+    line-height: 2;
+}
+.Call_icons_a {
+    display: inline-block;
+    line-height: 1;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    background-color: #039F9A;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+}
