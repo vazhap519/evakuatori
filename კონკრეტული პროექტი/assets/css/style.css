@@ -20,21 +20,37 @@
   height: auto;
     position: relative;
     z-index: 20;
-
+width: 100%
 }
 
 .navbar{
     background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
 }
 .navbar-brand {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
-.logoimg{
+ul.navbar-nav {
     margin: auto;
-    width: 60px
+}
+
+.logoimg {
+    margin: 0 auto;
+    width: 60px;
+    margin-left: 220px;
+
+}
+
+ .topSVG {
+    position: absolute;
+    top: 90px;
+    width: 100%;
 }
 
 .topSVG svg {
@@ -77,14 +93,6 @@ display: block;
     top: -40px;
 
 }
-
-
-
-
-
-
-
-
 .videoContainer{
 
         width: 100%;
@@ -99,7 +107,6 @@ video {
 .middleSvg {
 width: 100%;
     height: 150px;
-
     margin-bottom: -45px;
 
 }
@@ -112,32 +119,9 @@ width: 100%;
     position: absolute;
     height: 23px;
     fill: #fff;
-    z-index: 50;
+    z-index: 10;
     top: 508px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -192,8 +176,6 @@ content: '';
     margin:90px auto;
     text-align: justify;
 }
-
-
 
 
 
@@ -271,22 +253,6 @@ display: none;
     height: 180px;
       border-radius: 10px
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .bottomcontainer{
     width: 100%;
@@ -506,17 +472,6 @@ padding: 5px;
     color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .footer_top_content_right {
     display: flex;
     flex-wrap: wrap;
@@ -547,11 +502,6 @@ text-decoration: none;
     color: #fff;
     font-weight: 500;
 }
-
-
-
-
-
 .logo_footer{
     width: 145px;
         margin-bottom: 30px;
@@ -573,3 +523,216 @@ text-decoration: none;
     font-weight: 300;
     font-family: "DejaVuSans";
 }
+/**************************************************
+
+==================================================================================================================================
+**********************************************************/
+
+.person{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.personContent{
+        margin-top: 160px;
+    text-align: center;
+}
+.personname{
+    font-family: "archy";
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+
+
+.btn.profilechange {
+    color: #039F9A;
+    border: 1px solid;
+     font-family: "DejaVuSans";
+    width: auto;
+    font-size: 15px;
+
+     border-radius: 20px;
+}
+.M_title{
+        font-family: "DejaVuSans";
+    font-weight: 600;
+    color: #039F9A;
+    line-height: 1;
+    font-size: 23px;
+}
+.M_form label{font-family: "DejaVuSans"
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+.mfContent{
+    
+    margin-right: auto;
+}
+
+button.btn.btn-primary.savemy {
+    background-color: #039F9A;
+    color: #fff;
+}
+button.btn.btn-primary.savemy:hover {
+    background-color: #039F9A;
+    color: #fff;
+}
+
+.myfav{
+    width: 100%;
+    height: auto;
+    background-image: url(../images/svgs/Bermuda_Circle_g.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+.myfav_shape-top{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+
+.myfav_shape-top svg{
+        width: calc(114% + 1.3px);
+    height: 51px;
+
+display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.myfav_shape-top svg path{
+fill: #fff;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(
+0deg
+);
+    transform: rotateY(
+0deg
+);
+
+
+}
+.myfavContent{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    position: relative;
+    top: 40px;
+    
+}
+
+.myfavContent .myfavContent_h{
+    text-align: center;
+    margin: 85px 0;
+}
+.apartamentContainerConent_favs{
+    margin-bottom: 80px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.mycontact{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/svgs/Bermuda_Circle_w.svg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.mycontactsvg{
+overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+}
+
+.mycontactsvg svg {
+    width: calc(114% + 1.3px);
+    height: 51px;
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 0%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    transform: rotate(
+180deg
+);
+
+}
+
+.mycontactsvg svg path{
+
+
+    fill: #039F9A;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotateY(
+0deg
+);
+    transform: rotateY(
+0deg
+);
+}
+
+.mycontactContent{
+    position: absolute;
+        display: flex;
+    width: 90%;
+text-align: center;
+    margin-top: 60px;
+    flex-direction: column;
+
+}
+
+
+.mycontactContent_sub{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
