@@ -1,0 +1,190 @@
+@media (min-width:1200px){
+    .logoimg {
+margin: 0 150px;
+    width: 36%;
+background: yellow;
+}
+ a.btn.regBtn {
+    margin-left: 200px;
+}
+
+button.navbar-toggler {
+    background: gray;
+    /* text-align: center; */
+    margin-left: 30%;
+    margin-bottom: 30px;
+}
+    
+    ul.navbar-nav {
+      margin-left: 28%;
+}
+    
+    
+    
+    
+    
+
+.topSVG {
+    top: 475px;
+}
+
+    .middleContainertext_Header {
+    width: 100%;
+    text-align: center;
+    font-family: "nino";
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+    
+    
+  .middleContainertext_Header::after {
+    content: '';
+    width: 150px;
+    height: 4px;
+    background: #000;
+    position: absolute;
+    top: 45px;
+    left: 160px;
+}  
+     .download {
+      color: #fff;
+    background: #1CA29C;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 125px;
+    font-family: "DejaVuSans", Sans-serif;
+    font-size: 11px;
+}
+    
+.middleContainertext_paragraph {
+
+    color: #7A7A7A;
+    font-family: "DejaVuSans", Sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    width: 80%;
+    margin: 60px auto;
+    text-align: justify;
+}    
+    .bottomContainerContent_header {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #fff;
+    font-family: "archy";
+    font-size: 25px;
+    font-weight: 600;
+}
+    
+    .sel>select, input, button {
+    margin-right: 10px;
+    margin-top: 30px;
+    /* width: 44%; */
+}
+    
+    .imgB {
+    width: 70%;
+    left: 10%;
+    top: 55%;
+}
+    button.btn {
+    border: 1px solid #fff;
+}
+ .detailsContainer> h3 {
+
+    font-size: 17px;
+ 
+}   
+ .detailsContainer >.LoanC {
+
+    font-size: 11px;
+}   
+    .addFav > button {
+  
+    font-size: 9px;
+
+}
+.addFav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 20%;
+}    
+    
+    
+    .footer_top_content_left {
+    width: 100%;
+
+    display: block;
+}
+  
+    .logo_footer >img {
+    width: 100%;
+    margin-left: 72%;
+}
+.footer_top_content_left .footer_socials a {
+
+    margin-left: -1px
+}
+    .footer_socials {
+    margin-left: 20%;
+}
+    
+ .footer_bottom span {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 300;
+    font-family: "DejaVuSans";
+}   
+    
+    .footer_top_content_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    padding-top: 30px;
+    margin-left: 20%;
+}
+    
+    
+    .mycontactContent_sub {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 90%;
+    margin: 10% 16%;
+    flex-wrap: wrap;
+}
+    
+   .devCompany {
+    background: #F9F9FE;
+    padding: 30px;
+    box-shadow: 5px -4px 10px #888888;
+    border-radius: 30px;
+    margin-top: 10%;
+} 
+    
+    .Calls_sub {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 25%;
+}
+    .Calls_sub_Content {
+    background: #F9F9FE;
+    padding: 30px;
+    box-shadow: 5px -4px 10px #888888;
+    border-radius: 30px;
+    margin-top: 10%;
+}
+}
+/**
+=========================medi570amax================
+**/
+
+

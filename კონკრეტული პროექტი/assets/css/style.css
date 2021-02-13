@@ -43,13 +43,14 @@ ul.navbar-nav {
 .logoimg {
     margin: 0 auto;
     width: 60px;
-    margin-left: 220px;
+  margin-left: 220px;
+    background: red;
 
 }
 
  .topSVG {
     position: absolute;
-    top: 90px;
+     top: 90px;
     width: 100%;
 }
 
@@ -80,10 +81,6 @@ background: #1CA29C;
     font-weight: 500;
     border-radius: 20px 20px 20px 20px;
 }
-
-
-
-
 
 
 .middle{
@@ -151,29 +148,29 @@ background-size: cover;
     width: 100%;
     text-align: center;
     font-family: "nino";
-    font-size: 48px;
+   font-size: 48px;
     font-weight: 600;
         position: relative;
 }
 .middleContainertext_Header::after{
-content: '';
+    content: '';
     width: 150px;
     height: 4px;
     background: #000;
     position: absolute;
     top: 92px;
-    left: 635px;
+    left: 541px;
 
 }
 
 .middleContainertext_paragraph {
-    /* text-align: center; */
+
     color: #7A7A7A;
     font-family: "DejaVuSans", Sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    width: 70%;
-    margin:90px auto;
+  font-size: 16px;
+   width: 70%;
+   margin:90px auto;
     text-align: justify;
 }
 
@@ -185,7 +182,7 @@ content: '';
 background: #1CA29C;
     padding: 10px;
     border-radius: 20px 20px 20px 20px;
-    margin-left: 570px;
+    margin-left: 455px;
        font-family: "DejaVuSans", Sans-serif;
     font-size: 17px;
 
@@ -298,6 +295,9 @@ width: calc(114% + 1.3px);
     margin-bottom: 50px;
     margin-top: 50px;
     color: #fff;
+    font-family: "archy";
+/*    font-size: 48px;*/
+    font-weight: 600;
 }
 .btnfilter{
     background: #000;
@@ -364,15 +364,21 @@ width: calc(114% + 1.3px);
         color:#fff
 }
 */
-
+/******************************************************
+========================================================
+========================================================
+***/
 
 .imgB {
     position: absolute;
     text-align: center;
     z-index: 5;
+/*
     width: 50%;
     left: 80px;
     top: 80px;
+    */
+    
     border: 1px solid #fff;
     color: #fff!important;
 
@@ -387,10 +393,16 @@ imgB:hover{
     text-align: center;
 }
 
-.detailsContainer >button{
-    border:2px solid #000;
+.detailsContainer >.LoanC{
+
+  
+    border: 2px solid #000;
+    font-family: "DejaVuSans"
+    font-weight: 500;
+    font-size: 15px;
+
 }
-.detailsContainer >button:hover{
+.detailsContainer >.LoanC:hover{
 
 background-color: #1CA29C;
     color: #fff;
@@ -409,7 +421,7 @@ font-family: "archy";
     color: #1CA29C;
  margin-bottom: 10px;
 font-family: "archy";
-    font-size: 22px;
+   font-size: 22px;
     font-weight: 600;
 }
 .addFav {
@@ -421,6 +433,9 @@ font-family: "archy";
 
 .addFav > button {
     color: #1CA29C;
+        font-family: "DejaVuSans";
+    font-size: 14px;
+    font-weight: 400;
 
 }.addFav > button i{
     padding-right: 10px;
@@ -475,7 +490,7 @@ width: calc(114% + 1.3px);
 }
 
 .footer_top_content_left {
-    width: 20%;
+  width: 20%;
     margin-right: auto;
 }
 .footer_top_content_left .footer_socials a{
@@ -541,7 +556,7 @@ text-decoration: none;
 }
 .footer_bottom span{
     color: #FFFFFF;
-    font-size: 12px;
+/*    font-size: 12px;*/
     font-weight: 300;
     font-family: "DejaVuSans";
 }
