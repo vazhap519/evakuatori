@@ -825,6 +825,9 @@ font-family: "DejaVuSans";
     box-shadow: 5px -4px 10px #888888;
     border-radius: 30px;
 }
+.Calls_sub_Content:hover{
+    border:1px solid #039F9A
+}
 section.callDate {
     font-family: "DejaVuSans";
     font-size: 19px;
