@@ -5,49 +5,49 @@
     margin-left: 38px!important;
 }
     button.navbar-toggler {
-    background: #ccc!important;
+    background: #ccc;
     margin: 20px 40px!important;
 }
     ul.navbar-nav {
    
-    margin-left: 30px!important;
+    margin-left: 30px;
 }
     
    .topSVG {
-    top: 214px!important;
+    top: 214px;
 }
 
 
     .footer_top_content_left {
-    width: 100%!important;
+    width: 100%;
     
 }
     .logo_footer {
-    width: 36%!important;
-    margin-bottom: 30px!important;
-    margin-left: 25%!important;
+    width: 36%;
+    margin-bottom: 30px;
+    margin-left: 25%;
 }
     .footer_socials {
-    display: flex!important;
-    margin-left: 20px!important;
-    width: 50%!important;
-    flex-direction: column!important;
+    display: flex;
+    margin-left: 20px;
+    width: 50%;
+    flex-direction: column;
 }
     .footer_top_content_left .footer_socials a {
 
-    margin-bottom: 5px!important;
+    margin-bottom: 5px;
 }
   .footer_top_content_right ul {
-    margin-left: -33px!important;
+    margin-left: -33px;
 }
     .footer_top_content_right h3 {
   
-    font-size: 16px!important;
+    font-size: 16px;
   
 }
     .footer_bottom span {
 
-    font-size: 9px!important;
+    font-size: 9px;
   
 }
     /***************************************************
@@ -58,52 +58,52 @@
     *****************************************************/
     
     .middleContainertext_Header {
-    font-size: 16px!important;
+    font-size: 16px;
 }
     
     
    .middleContainertext_paragraph {
   
-    font-size: 11px!important;
-    width: 80%!important;
+    font-size: 11px;
+    width: 80%;
    
 } 
     
     .middleContainertext_Header::after {
   
-    top: 55px!important;
-    left: 15px!important;
+    top: 55px;
+    left: 15px;
 }
  .download {
  
-    margin-left: 5px!important;
-    font-size: 10px!important;
+    margin-left: 5px;
+    font-size: 10px;
 }   
     .bottomContainerContent_header {
 
-    font-size: 20px!important;
+    font-size: 20px;
 
 }
   .sel>select, input, button {
-    margin-top: 10px!important;
+    margin-top: 10px;
 }
     .slidebtn{
-        top:-10px!important
+        top:-10px;
     }
     .imgB{
-        right: 25px!important;
-        top:25px!important;
+          right: 18px;
+        top:25px;
     }
 
      .detailsContainer> h1 {
-    margin-left: 0px!important;
-    font-size: 27px!important;
+    margin-left: 0px;
+    font-size: 27px;
 }
     
     
     .detailsContainer> h3 {
-    font-size: 15px!important;
-    margin-left: -7px!important;
+  font-size: 12px;
+    margin-left: -7px;
 }
     
     
@@ -113,10 +113,430 @@
 }
 .addFav {
 
-    margin-top: -34px!important;
+    margin-top: -34px;
+    margin-left: -5px;
+    
+}
+    .addFav >.btn  span {
+
+  font-size: 5px
+    
 }
     button.btn {
     font-size: 6px;
 }
+    
+    .devCompany {
+margin-left: 10px;
+    padding: 10px;
+ margin-top: 20px;
+}
+
+
+
+    .mycontactHeader {
+    font-size: 20px;
+  
+}
+    .mycontactContent_sub .devCompany >h2 {
+ 
+    font-size: 12px;
 
 }
+    .CallsHeader {
+    font-size: 20px;
+  
+}
+.Calls_sub_Content {
+    margin-top: 20px;
+  
+}
+
+section.callManagerName {
+
+    font-size: 14px;
+
+}
+section.callManager {
+
+    font-size: 10px;
+    
+}
+    
+    /***************************************************
+    ===================================================
+                contantMediaMax200px
+    
+    =====================================================
+    *****************************************************/
+    
+}
+
+
+
+@media screen and (min-width:201px) and (max-width:570px){
+    a.btn.regBtn {
+       margin-left: 178px;
+    margin-top: 15px;
+}
+    button.navbar-toggler {
+    background: #ccc;
+    margin-top: 0px;
+    margin-left: 223px;
+}
+    ul.navbar-nav {
+
+    margin-left: 217px;
+}
+    .middleContainertext_Header::after {
+   
+    left: 157px;
+}
+    
+    .download {
+  
+    margin-left: 138px;
+ 
+}
+    
+    .middleContainertext_paragraph {
+   
+    width: 80%;
+ 
+}
+    
+ .sel>select, input, button {
+  
+    margin-top: 10px;
+}   
+    
+    .imgContainer {
+   
+    margin-left: 26px;
+}
+    
+   .addFav {
+    margin-left: -27px;
+}
+
+.imgB {
+    right: 100px;
+    top: 80px;
+}
+    
+    .detailsContainer {
+   
+    margin-left: 45px;
+}
+    .addFav > button {
+
+    margin-left: 94px;
+    
+    
+    }
+    
+    .footer_top_content_left {
+    width: 100%;
+    margin-left: 160px;
+    }
+    
+    .footer_socials {
+    margin-left: -65px;
+}
+  .footer_top_content_right {
+
+    flex-direction: column;
+margin-left: 42px;
+}  
+    .logo_footer {
+    margin-left: -38px;
+}
+    
+    
+  .mycontactContent_sub {
+
+      margin-left: 130px;
+}  
+    
+.devCompany {
+    margin-top: 15px;
+    margin-left: -55px;
+}
+    
+    .Calls_sub {
+
+    flex-direction: column;
+
+    margin-left: 115px;
+}
+ 
+    
+    
+    .Calls_sub_Content {
+    margin-top: 15px;
+    width: 60%;
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+} 
+
+
+
+@media screen and (min-width:571px) and (max-width:770px){
+    
+      a.btn.regBtn {
+       margin-left: 178px;
+    margin-top: 15px;
+}
+    button.navbar-toggler {
+    background: #ccc;
+    margin-top: 0px;
+    margin-left: 223px;
+}
+    ul.navbar-nav {
+
+    margin-left: 217px;
+}
+    .middleContainertext_Header::after {
+   
+    left: 157px;
+}
+    
+    .download {
+  
+    margin-left: 138px;
+ 
+}
+    
+    .middleContainertext_paragraph {
+   
+    width: 80%;
+ 
+}
+    
+ .sel>select, input, button {
+  
+    margin-top: 10px;
+}   
+    
+    .imgContainer {
+   
+    margin-left: 26px;
+}
+    
+   .addFav {
+    margin-left: -27px;
+}
+
+.imgB {
+    right: 100px;
+    top: 80px;
+}
+    
+    .detailsContainer {
+   
+    margin-left: 45px;
+}
+    .addFav > button {
+
+    margin-left: 94px;
+    
+    
+    }
+    
+    .footer_top_content_left {
+    width: 100%;
+    margin-left: 160px;
+    }
+    
+    .footer_socials {
+    margin-left: -65px;
+}
+  .footer_top_content_right {
+
+    flex-direction: column;
+margin-left: 42px;
+}  
+    .logo_footer {
+    margin-left: -38px;
+}
+    
+    
+  .mycontactContent_sub {
+
+      margin-left: 130px;
+}  
+    
+.devCompany {
+    margin-top: 15px;
+    margin-left: -55px;
+}
+    
+    .Calls_sub {
+
+    flex-direction: column;
+
+    margin-left: 115px;
+}
+ 
+    
+    
+    .Calls_sub_Content {
+    margin-top: 15px;
+    width: 60%;
+}
+    
+    
+ 
+    
+}
+
+
+@media screen and (min-width:771px) and (max-width:1125px){
+    .middleContainertext_Header::after {
+
+    left: 380px;
+
+}
+    
+    
+    .download {
+
+    margin-left: 345px;
+   
+    }
+    
+    
+    .apartamentContainerConent {
+    flex-direction: column;
+}
+    
+    .imgContainer {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+    a.btn.imgB {
+    right: 140px;
+    top: 90px;
+}
+    
+    
+.detailsContainer {
+    margin-left: 198px;
+}    
+    
+    
+    .addFav {
+    margin-left: -135px;
+}
+    
+   .footer_top_content_left {
+    width: 30%;
+    
+} 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+@media screen and (min-width:1400px) {
+
+    .wrapper{
+    
+        margin: auto;
+        background: orange;
+        overflow: hidden;
+    }
+  .navbar-brand {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    margin-left: 20%;
+}
+    
+    
+ 
+    
+div#navbarSupportedContent {
+    width: 50%;
+    margin-right: 5%;
+}
+    a.btn.regBtn {
+    margin-right: 40%;
+}
+
+    .topSVG {
+
+    top: 217px;
+
+}
+    .middleContainertext_Header::after {
+   
+    left: 48%;
+}
+   .download {
+  
+    margin-left: 47%;
+
+} 
+    
+  .apartamentContainerConent {
+
+    width: 20%;
+
+}  
+    
+    .footer_top_content {
+    width: 21%;
+
+}
+    
+  .logoimg {
+  
+    margin-left: 208%;
+}  
+    
+    
+    
+}   
+    
+    
+    
+    
+    
+    
+    
+    

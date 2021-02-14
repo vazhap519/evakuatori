@@ -29,11 +29,11 @@ width: 100%
     width: 100%;
     z-index: 4;
 }
-}
+
 .navbar-brand {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+/*    width: 40%;*/
     margin: auto;
 }
 ul.navbar-nav {
@@ -41,17 +41,21 @@ ul.navbar-nav {
 }
 
 .logoimg {
-    margin: 0 auto;
-    width: 60px;
-  margin-left: 220px;
+       margin: 0 auto;
+    width: 20%;
+/*  margin-left: 220px;*/
 
 
 }
 
+
+
+
  .topSVG {
-    position: absolute;
-     top: 90px;
+     position: absolute;
+    top: 139px;
     width: 100%;
+
 }
 
 .topSVG svg {
@@ -373,12 +377,8 @@ width: calc(114% + 1.3px);
     position: absolute;
     text-align: center;
     z-index: 5;
-/*
-    width: 50%;
-    left: 80px;
-    top: 80px;
-    */
-    
+right: 150px;
+    top: 74px;
     border: 1px solid #fff;
     color: #fff!important;
 
@@ -861,6 +861,7 @@ font-family: "DejaVuSans";
     padding: 30px;
     box-shadow: 5px -4px 10px #888888;
     border-radius: 30px;
+    width: 25%;
 }
 .Calls_sub_Content:hover{
     border:1px solid #039F9A;
