@@ -476,8 +476,7 @@ margin-left: 42px;
 
     .wrapper{
     
-        margin: auto;
-        background: orange;
+       
         overflow: hidden;
     }
   .navbar-brand {
@@ -498,11 +497,13 @@ div#navbarSupportedContent {
     margin-right: 40%;
 }
 
-    .topSVG {
+    
 
-    top: 217px;
-
+.topSVG {
+    top: 132px;
 }
+
+
     .middleContainertext_Header::after {
    
     left: 48%;
@@ -529,9 +530,29 @@ div#navbarSupportedContent {
     margin-left: 208%;
 }  
     
+    .myfavContent {
+    width: 100%;
+  
+}
+    .mycontactContent_sub {
+  
+    width: 20%;
+   
+}
+    
+    .Calls_sub {
+  
+    width: 35%;
+  
+}
+    .Calls_sub_Content {
+  
+    width: 25%;
+    
+    }  
     
     
-}   
+}
     
     
     
