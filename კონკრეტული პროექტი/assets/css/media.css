@@ -1,12 +1,12 @@
 @media screen and (max-width:200px){
-  
     .logoimg {
   
-    margin-left: 38px!important;
+    margin-left: 38px;
+
 }
     button.navbar-toggler {
     background: #ccc;
-    margin: 20px 40px!important;
+    margin: 20px 40px;
 }
     ul.navbar-nav {
    
@@ -50,26 +50,17 @@
     font-size: 9px;
   
 }
-    /***************************************************
-    ===================================================
-                header&footerMediaMax200px
-    
-    =====================================================
-    *****************************************************/
-    
+}
     .middleContainertext_Header {
     font-size: 16px;
 }
-    
-    
-   .middleContainertext_paragraph {
+.middleContainertext_paragraph {
   
     font-size: 11px;
     width: 80%;
    
 } 
-    
-    .middleContainertext_Header::after {
+.middleContainertext_Header::after {
   
     top: 55px;
     left: 15px;
@@ -94,20 +85,14 @@
           right: 18px;
         top:25px;
     }
-
      .detailsContainer> h1 {
     margin-left: 0px;
     font-size: 27px;
 }
-    
-    
     .detailsContainer> h3 {
   font-size: 12px;
     margin-left: -7px;
 }
-    
-    
-
     button.btn {
     font-size: 7px;
 }
@@ -125,15 +110,11 @@
     button.btn {
     font-size: 6px;
 }
-    
     .devCompany {
 margin-left: 10px;
     padding: 10px;
  margin-top: 20px;
 }
-
-
-
     .mycontactHeader {
     font-size: 20px;
   
@@ -151,7 +132,6 @@ margin-left: 10px;
     margin-top: 20px;
   
 }
-
 section.callManagerName {
 
     font-size: 14px;
@@ -163,16 +143,16 @@ section.callManager {
     
 }
     
+
+    
+}
+
     /***************************************************
     ===================================================
                 contantMediaMax200px
     
     =====================================================
     *****************************************************/
-    
-}
-
-
 
 @media screen and (min-width:201px) and (max-width:570px){
     a.btn.regBtn {
@@ -215,45 +195,40 @@ section.callManager {
     margin-left: 26px;
 }
     
-   .addFav {
-    margin-left: -27px;
+.addFav {   margin-left: -27px;
 }
 
-.imgB {
-    right: 100px;
-    top: 80px;
-}
+.imgB { right: 100px top: 80px;}
     
-    .detailsContainer {
+.detailsContainer {
    
-    margin-left: 45px;
+margin-left: 45px;
 }
-    .addFav > button {
+.addFav > button {
 
-    margin-left: 94px;
+margin-left: 94px;
     
     
     }
     
-    .footer_top_content_left {
+.footer_top_content_left {
     width: 100%;
     margin-left: 160px;
     }
     
-    .footer_socials {
+.footer_socials {
     margin-left: -65px;
 }
-  .footer_top_content_right {
+.footer_top_content_right {
 
     flex-direction: column;
 margin-left: 42px;
 }  
-    .logo_footer {
-    margin-left: -38px;
+.logo_footer {
+margin-left: -38px;
 }
-    
-    
-  .mycontactContent_sub {
+
+.mycontactContent_sub {
 
       margin-left: 130px;
 }  
@@ -263,49 +238,18 @@ margin-left: 42px;
     margin-left: -55px;
 }
     
-    .Calls_sub {
-
+.Calls_sub {
     flex-direction: column;
-
     margin-left: 115px;
 }
  
-    
-    
-    .Calls_sub_Content {
+     
+.Calls_sub_Content {
     margin-top: 15px;
     width: 60%;
 }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
 } 
 
 
@@ -313,26 +257,37 @@ margin-left: 42px;
 @media screen and (min-width:571px) and (max-width:770px){
     
       a.btn.regBtn {
-       margin-left: 178px;
+     margin-left: 292px;
     margin-top: 15px;
 }
+
+    .topSVG {
+
+    top: 284px;
+
+}
+    
     button.navbar-toggler {
     background: #ccc;
     margin-top: 0px;
     margin-left: 223px;
 }
+    
     ul.navbar-nav {
 
     margin-left: 217px;
 }
+    
     .middleContainertext_Header::after {
-   
-    left: 157px;
+
+    left: 270px;
+
 }
     
     .download {
-  
-    margin-left: 138px;
+
+    margin-left: 255px;
+
  
 }
     
@@ -347,76 +302,84 @@ margin-left: 42px;
     margin-top: 10px;
 }   
     
-    .imgContainer {
+
    
-    margin-left: 26px;
-}
-    
-   .addFav {
-    margin-left: -27px;
+.imgContainer {
+    margin-left: 118px;
 }
 
-.imgB {
-    right: 100px;
+    
+    
+.addFav {
+    margin-left: 90px;
+}
+
+
+ .imgB {
+    right: 145px;
     top: 80px;
+
 }
     
-    .detailsContainer {
-   
-    margin-left: 45px;
+.detailsContainer {
+    margin-left: 125px;
+
 }
-    .addFav > button {
+.addFav > button {
 
     margin-left: 94px;
     
     
     }
     
-    .footer_top_content_left {
+.footer_top_content_left {
     width: 100%;
     margin-left: 160px;
     }
     
-    .footer_socials {
-    margin-left: -65px;
+
+.footer_socials {
+    margin-left: 32px;
 }
-  .footer_top_content_right {
+
+
+.footer_top_content_right {
 
     flex-direction: column;
 margin-left: 42px;
-}  
-    .logo_footer {
-    margin-left: -38px;
+} 
+    
+.logo_footer {
+
+    margin-left: 58px;
+
 }
     
     
-  .mycontactContent_sub {
+.mycontactContent_sub {
 
       margin-left: 130px;
+      flex-direction: column;
 }  
     
 .devCompany {
     margin-top: 15px;
-    margin-left: -55px;
+    margin-left: 130px;
+    width: 30%;
 }
     
-    .Calls_sub {
+.Calls_sub {
 
     flex-direction: column;
 
     margin-left: 115px;
 }
  
-    
-    
-    .Calls_sub_Content {
+ .Calls_sub_Content {
     margin-top: 15px;
     width: 60%;
 }
-    
-    
- 
-    
+     
 }
 
 
@@ -472,18 +435,18 @@ margin-left: 42px;
     
     
 }
+
+
 @media screen and (min-width:1400px) {
 
-    .wrapper{
-    
-       
-        overflow: hidden;
-    }
+    ul.navbar-nav {
+    margin-left: 775px;
+}
   .navbar-brand {
     display: flex;
     flex-wrap: wrap;
-    width: 20%;
-    margin-left: 20%;
+    width: 10%;
+    margin-left: 21%;
 }
     
     
@@ -526,8 +489,9 @@ div#navbarSupportedContent {
 }
     
   .logoimg {
-  
-    margin-left: 208%;
+    margin: 0 auto;
+    width: 36%;
+    margin-left: 856px;
 }  
     
     .myfavContent {

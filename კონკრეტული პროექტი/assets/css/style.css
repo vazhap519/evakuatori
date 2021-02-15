@@ -23,7 +23,7 @@
 width: 100%
 }
 
-.navbar{
+ .navigation{
     background-color: #000;
     position: fixed;
     width: 100%;
@@ -36,7 +36,7 @@ width: 100%
 /*    width: 40%;*/
     margin: auto;
 }
-ul.navbar-nav {
+.navigation{
     margin: auto;
 }
 
@@ -602,6 +602,10 @@ h3.personname {
     font-size: 15px;
 
      border-radius: 20px;
+}
+.profilechange:hover{
+    background-color: #039F9A;
+    color: #fff;
 }
 .M_title{
         font-family: "DejaVuSans";
